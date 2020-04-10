@@ -1,19 +1,21 @@
 package interactor
 
 import presenter.AgePresenter
+import presenter.AgePresenterError
 import presenter.Message
 import repository.AgeRepository
 
 open class AgeInteractor(
     val repository: AgeRepository,
-    val presenter: AgePresenter
+    val presenter: AgePresenter,
+    val presenterError: AgePresenterError
 ) {
     fun checkMyQuestion(question: String) {
         if (question != "") {
             val res = repository.getAge(question)
             checkMyAge(res)
         } else {
-            println("empty question")
+            presenterError.presentAgeError()
         }
     }
 
