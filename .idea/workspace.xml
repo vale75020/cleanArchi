@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7799ce5-12f8-4d4a-a35d-2add66804b1b" name="Default Changelist" comment="" />
+    <list default="true" id="c7799ce5-12f8-4d4a-a35d-2add66804b1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/question/question.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/AgeRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vue/vue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controlleur/controlleur.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlleur/controlleur.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataSource/dataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataSource/dataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interactor/interactor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/interactor/interactor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/presenter/presenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/presenter/presenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/repository.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aLAa2BklRgTGtVNfWfgUpFiokE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="cleanArchi" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.main.MainKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,5 +85,17 @@
       <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state x="628" y="348" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1031@0.23.1792.1031" timestamp="1586504644305" />
+    <state x="678" y="261" key="#com.intellij.ide.util.MemberChooser" timestamp="1586511626627">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="678" y="261" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1031@0.23.1792.1031" timestamp="1586511626627" />
+    <state x="662" y="198" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1586520719976">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="662" y="198" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1586520719976" />
+    <state x="945" y="179" key="refactoring.ChangeSignatureDialog" timestamp="1586520243859">
+      <screen x="0" y="23" width="1792" height="1031" />
+    </state>
+    <state x="945" y="179" key="refactoring.ChangeSignatureDialog/0.23.1792.1031@0.23.1792.1031" timestamp="1586520243859" />
   </component>
 </project>
