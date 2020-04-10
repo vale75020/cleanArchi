@@ -21,5 +21,5 @@ fun main(){
     val interactor = AgeInteractor(repository, presenter, presenterError)
     val controller = AgeController(interactor)
     val question = Question(controller)
-    question.callController("")
+    question.callController("erernfekjr")
 }

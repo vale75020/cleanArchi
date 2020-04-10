@@ -9,5 +9,10 @@ class AgePresenterError(val vueError: VueError) {
         vueError.printMessageError(messageError)
     }
 
+    fun presentAgeErrorNull() {
+        val messageErrorNull = "server error"
+        vueError.printMessageError(messageErrorNull)
+    }
+
 }
 

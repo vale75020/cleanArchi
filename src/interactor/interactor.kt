@@ -13,7 +13,11 @@ open class AgeInteractor(
     fun checkMyQuestion(question: String) {
         if (question != "") {
             val res = repository.getAge(question)
-            checkMyAge(res)
+            if (res != null) {
+                checkMyAge(res)
+            } else {
+                presenterError.presentAgeErrorNull()
+            }
         } else {
             presenterError.presentAgeError()
         }
